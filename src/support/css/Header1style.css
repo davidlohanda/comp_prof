@@ -1,0 +1,23 @@
+.header1-container{
+    margin-top: 65px;
+    height: 70px;
+    background-color: #F4F4F4;
+}
+.header1-info{
+    font-weight: 400;
+    display: inline-block;
+    color: #666666;
+    margin-top: 28px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.header1-info span{
+    color: #0869BA;
+}
+
+@media (max-width: 766px){
+    .header1-info{
+        font-size: 12px
+    }
+}

@@ -1,0 +1,23 @@
+.separator-container{
+    margin-top: 60px;
+    height: 120px;
+    background-color: #192a56;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.separator-container p{
+    color : #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+@media (max-width: 766px){
+    .separator-container p{
+        font-size: 16px;
+        margin-top: 22px
+    }
+    .separator-container{
+        height: 90px;
+    }   
+}
